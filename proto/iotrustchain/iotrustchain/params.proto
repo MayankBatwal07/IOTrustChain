@@ -1,0 +1,12 @@
+syntax = "proto3";
+package iotrustchain.iotrustchain;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "IOTrustChain/x/iotrustchain/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}

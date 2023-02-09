@@ -1,0 +1,14 @@
+syntax = "proto3";
+package iotrustchain.iotrustchain;
+
+import "gogoproto/gogo.proto";
+import "iotrustchain/iotrustchain/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "IOTrustChain/x/iotrustchain/types";
+
+// GenesisState defines the iotrustchain module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}
