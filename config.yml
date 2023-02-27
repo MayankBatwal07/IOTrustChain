@@ -4,6 +4,9 @@ accounts:
     coins: ["20000token", "200000000stake"]
   - name: bob
     coins: ["10000token", "100000000stake"]
+  - name: frank
+    coins: [10000token, 100000000stake]
+    mnemonic: stem brief one tree note explain title rough mimic party park model
 validators:
   - name: alice
     bonded: "100000000stake"
